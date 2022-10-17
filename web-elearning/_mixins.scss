@@ -1,0 +1,8 @@
+@mixin btn-variant($bg, $color) {
+    background-color: $bg;
+    color: $color;
+    
+    &:hover {
+        background-color: lighten($bg, 10%);
+    }
+}
